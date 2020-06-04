@@ -2,15 +2,14 @@
     float: center;
     width: 100%;
     background-color: black;
-    height: 80px;
+    height: 95px;
     border-color: black;
     border-style: solid;
-    border-width: 5px;
 }
 
 .background{
     position: fixed;
-    background-color: black;
+    background-color: azure;
     background-size: cover;
     min-height: 100%;
     min-width: 100%;
@@ -25,14 +24,14 @@
     background-color: azure;
     height: 650px;
     border-style: solid;
-    border-color: black;
+    border-color: azure;
     border-width: 10px;
     text-align: center;
 }
 
 ul{
     list-style-type: none;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 300px;
 }
 
@@ -44,7 +43,7 @@ li a {
     background-color: rgb(25,67,127);
     border-color: azure;
     border-style: solid;
-    border-width: 2.5px;
+    border-width: 1.5px;
     text-align: center;
     padding: 6.5px;
     width: 279.5px;
@@ -54,13 +53,25 @@ li a {
     font-size: 22.5px;
     text-decoration: none;
     color: azure;
-    box-shadow: #80B2FF 0px 4.5px 4.5px 0px inset;    
+    box-shadow: #80B2FF 0px 4.5px 4.5px 0px inset;  
+}
+
+li a:hover {
+    background-color: white;
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 100px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 85px;
+    font-family: Aharoni, Aharoni, sans-serif;
+    font-weight: bolder;
+}
+
+h1 {
+    padding-left: 15px;
+    padding-right: 10px;
+    text-shadow: 0 0 20px rgb(25,67,127), 0 0 20px rgb(25,67,127);
 }
