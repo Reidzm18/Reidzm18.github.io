@@ -26,7 +26,8 @@
     border-style: solid;
     border-color: azure;
     border-width: 10px;
-    text-align: center;
+    text-align: left;
+    display: block;
 }
 
 ul{
@@ -58,6 +59,8 @@ li a {
 
 li a:hover {
     background-color: white;
+    color: black;
+    box-shadow: black 0px 4.5px 4.5px 0px inset;
 }
 
 .centered {
@@ -75,3 +78,49 @@ h1 {
     padding-right: 10px;
     text-shadow: 0 0 20px rgb(25,67,127), 0 0 20px rgb(25,67,127);
 }
+
+.container{
+    width: 97%;
+    height: 290px;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    display: block;
+    border: 2px;
+    border-style: solid;
+}
+
+
+h2 {
+    text-align: left;
+    position: absolute;
+    display: block;
+    top: 0;
+    padding-left: 275px;
+    font-size: 50px;
+    font-family: Aharoni, Aharoni, sans-serif;
+}
+
+.pinned1 {
+    float: center;
+    display:block;
+    padding:20px;
+    height:auto;
+}
+
+.pinned2 {
+    position:relative;
+    display:block;
+    float:left;
+    padding:20px;
+    height:auto;
+}
+
+h3 {
+    text-align: left;
+    position: absolute;
+    display: block;
+    top: 100px;
+    padding-left: 275px;
+    font-size: 50px;
+    font-family: Aharoni, Aharoni, sans-serif;
