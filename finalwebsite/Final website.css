@@ -86,8 +86,6 @@ h1 {
     padding: 0;
     position:absolute;
     display: block;
-    border: 2px;
-    border-style: solid;
 }
 
 
@@ -95,17 +93,22 @@ h2 {
     text-align: left;
     position: absolute;
     display: block;
-    top: 0;
-    padding-left: 275px;
+    top: 5px;
+    padding-left: 250px;
     font-size: 50px;
     font-family: Aharoni, Aharoni, sans-serif;
 }
 
 .pinned1 {
-    float: center;
+    float: left;
+    position: relative;
     display:block;
     padding:20px;
     height:auto;
+    border: 2px;
+    border-style: solid;
+    width: 42.5%;
+    height: 225px;
 }
 
 .pinned2 {
@@ -113,14 +116,72 @@ h2 {
     display:block;
     float:left;
     padding:20px;
-    height:auto;
+    width: 42.5%;
+    border: 2px;
+    border-style: solid;
+    height: 225px;
+}
+
+.pinned3 {
+    position:relative;
+    float: right;
+    display: block;
+    padding:20px;
+    width: 42.5%;
+    border: 2px;
+    border-style: solid;
+    height: 225px;
+    top: 0;
+}
+
+.pinned4 {
+    position:relative;
+    float: right;
+    display: block;
+    padding:20px;
+    width: 42.5%;
+    border: 2px;
+    border-style: solid;
+    height: 225px;
+    top: 0;
 }
 
 h3 {
     text-align: left;
     position: absolute;
     display: block;
-    top: 100px;
-    padding-left: 275px;
+    top: 5px;
+    padding-left: 250px;
     font-size: 50px;
     font-family: Aharoni, Aharoni, sans-serif;
+}
+
+h4 {
+    text-align: left;
+    position: absolute;
+    display: block;
+    top: 0px;
+    padding-left: 250px;
+    font-size: 50px;
+    font-family: Aharoni, Aharoni, sans-serif;
+}
+
+h5 {
+    text-align: left;
+    position: absolute;
+    display: block;
+    top: 0;
+    padding-left: 250px;
+    font-size: 50px;
+    font-family: Aharoni, Aharoni, sans-serif;
+}
+
+p {
+   text-align: left;
+    position: absolute;
+    display: block;
+    top: 0;
+    padding-left: 250px;
+    font-size: 20px;
+    font-family: Aharoni, Aharoni, sans-serif; 
+}
