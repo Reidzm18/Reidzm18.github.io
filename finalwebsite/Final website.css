@@ -196,3 +196,9 @@ p3{
     font-size: 22.5px;
     font-family: Aharoni, Aharoni, sans-serif;   
 }
+
+.CbhsLogo:hover{
+    background-color: gold;
+    border-radius: 90px;
+    opacity: 0.5;
+}
