@@ -1,10 +1,12 @@
 .top{
     float: center;
     width: 100%;
+    height: 100px;
     background-color: black;
-    height: 95px;
     border-color: black;
     border-style: solid;
+    resize: horizontal;
+    resize: vertical;
 }
 
 .background{
@@ -14,7 +16,9 @@
     min-height: 100%;
     min-width: 100%;
     right: 0;
-    bottom: 0;   
+    bottom: 0;
+    resize: horizontal;
+    resize: vertical;
 }
 
 .main{
@@ -22,24 +26,26 @@
     margin: auto;
     width: 97.5%;
     background-color: azure;
-    height: 650px;
+    height: 100%;
     border-style: solid;
     border-color: azure;
     border-width: 10px;
-    text-align: left;
-    display: block;
+    text-align: left; 
 }
 
 ul{
     list-style-type: none;
     padding-top: 10px;
-    padding-right: 300px;
+    padding-right: 17.5%;
+    resize: horizontal;
+    resize: vertical;
 }
 
 
 li a {
     float: right;
-    margin-left: 25px;
+    margin-left: 3%;
+    padding left: 100px;
     display: block;
     background-color: rgb(25,67,127);
     border-color: azure;
@@ -47,14 +53,16 @@ li a {
     border-width: 1.5px;
     text-align: center;
     padding: 6.5px;
-    width: 279.5px;
+    width: 25%;
     border-radius: 10px;
     font-family: Aharoni, Aharoni, sans-serif;
     font-weight: bolder;
     font-size: 22.5px;
     text-decoration: none;
     color: azure;
-    box-shadow: #80B2FF 0px 4.5px 4.5px 0px inset;  
+    box-shadow: #80B2FF 0px 4.5px 4.5px 0px inset;
+   
+    
 }
 
 li a:hover {
@@ -65,18 +73,18 @@ li a:hover {
 
 .centered {
     position: absolute;
-    top: 55%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 85px;
+    font-size: 500%;
     font-family: Aharoni, Aharoni, sans-serif;
     font-weight: bolder;
+    text-align: center;
 }
 
 h1 {
-    padding-left: 15px;
-    padding-right: 10px;
     text-shadow: 0 0 20px rgb(25,67,127), 0 0 20px rgb(25,67,127);
+    
 }
 
 .container{
@@ -86,6 +94,8 @@ h1 {
     padding: 0;
     position:absolute;
     display: block;
+    resize: horizontal;
+    resize: vertical;
 }
 
 
@@ -94,105 +104,122 @@ h2 {
     position: absolute;
     display: block;
     top: 5px;
-    padding-left: 250px;
-    font-size: 50px;
+    padding-left: 38%;
+    font-size: 200%;
     font-family: Aharoni, Aharoni, sans-serif;
+    resize: horizontal;
+    resize: vertical;
+    overflow: auto;
 }
 
 .pinned1 {
     float: left;
     position: relative;
     display:block;
-    padding:20px;
+    padding: 2%;
     height:auto;
     border: 2px;
     border-style: none;
     width: 42.5%;
     height: 225px;
+    resize: horizontal;
+    resize: vertical;
 }
 
 .pinned2 {
     position:relative;
     display:block;
     float:left;
-    padding:20px;
+    padding: 2%;
     width: 42.5%;
     border: 2px;
     border-style: none;
     height: 225px;
     padding-top: 50px;
+    resize: horizontal;
+    resize: vertical;
 }
 
 .pinned3 {
     position:relative;
     float: right;
     display: block;
-    padding:20px;
+    padding: 2%;
     width: 42.5%;
     border: 2px;
     border-style: none;
     height: 225px;
     top: 0;
+    resize: horizontal;
+    resize: vertical;
 }
 
 .pinned4 {
     position:relative;
     float: right;
     display: block;
-    padding: 20px;
+    padding: 2%;
     width: 42.5%;
     border: 2px;
     border-style: none;
     height: 225px;
     top: 0;
     padding-top: 50px;
-    
+    resize: horizontal;
+    resize: vertical;
 }
 
 
 p {
     text-align: left;
     position: absolute;
-    top: 100px;
-    padding-left: 250px;
-    font-size: 20px;
+    top: 35%;
+    padding-left: 38%;
+    font-size: 120%;
     font-family: Aharoni, Aharoni, sans-serif; 
+    resize: horizontal;
+    resize: vertical;
 }
 
 h3 {
-    padding-left: 840px;
-    padding-top: 55px;
+    padding-left: 62%;
+    padding-top: 50px;
     position: absolute;
-    display: flex;
-    top: 5px;
-    font-size: 45px;
+    float: right;
+    top: 30px;
+    font-size: 30px;
     font-family: Aharoni, Aharoni, sans-serif; 
+    
+    
 }
 
 p2 {
     text-align: left;
     position: absolute;
     top: 165px;
-    padding-left: 850px;
-    font-size: 22.5px;
-    font-family: Aharoni, Aharoni, sans-serif;   
+    padding-left: 62%;
+    font-size: 150%;
+    font-family: Aharoni, Aharoni, sans-serif;  
+    resize: horizontal;
+    resize: vertical;
 }
 
 h4{
-    padding-left: 840px;
+    padding-left: 62%;
     padding-top: 280px;
+    border-top: 20px;
     position: absolute;
-    display: flex;
-    top: 5px;
-    font-size: 45px;
+    top: 110px;
+    font-size: 30px;
     font-family: Aharoni, Aharoni, sans-serif; 
+    resize: horizontal;
+    resize: vertical;
 }
 
 p3{
-    text-align: left;
     position: absolute;
-    top: 385px;
-    padding-left: 835px;
+    top: 475px;
+    padding-left: 62%;
     font-size: 22.5px;
     font-family: Aharoni, Aharoni, sans-serif;   
 }
@@ -202,3 +229,4 @@ p3{
     border-radius: 90px;
     opacity: 0.5;
 }
+
